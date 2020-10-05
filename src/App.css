@@ -1,38 +1,27 @@
 .App {
   text-align: center;
 }
+body {
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 1600 900'%3E%3Cpolygon fill='%2366aecc' points='957 450 539 900 1396 900'/%3E%3Cpolygon fill='%232673aa' points='957 450 872.9 900 1396 900'/%3E%3Cpolygon fill='%235aaac6' points='-60 900 398 662 816 900'/%3E%3Cpolygon fill='%231e7abb' points='337 900 398 662 816 900'/%3E%3Cpolygon fill='%234da6c0' points='1203 546 1552 900 876 900'/%3E%3Cpolygon fill='%231780cc' points='1203 546 1552 900 1162 900'/%3E%3Cpolygon fill='%2340a2b9' points='641 695 886 900 367 900'/%3E%3Cpolygon fill='%231486dd' points='587 900 641 695 886 900'/%3E%3Cpolygon fill='%23329eb2' points='1710 900 1401 632 1096 900'/%3E%3Cpolygon fill='%231a8cee' points='1710 900 1401 632 1365 900'/%3E%3Cpolygon fill='%23219aaa' points='1210 900 971 687 725 900'/%3E%3Cpolygon fill='%232791ff' points='943 900 1210 900 971 687'/%3E%3C/svg%3E")
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  background-color: #ffffff;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.authentication__container {
+  padding: 10px;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.authentication__tabs {
+  max-width: 500px;
+  margin: 0 auto;
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  font-weight: normal !important;
+  font-size: 50px;
+  color: #292727a4;
 }

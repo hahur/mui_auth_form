@@ -1,0 +1,22 @@
+.allusers__container {
+  max-width: 800px;
+  margin: 0 auto;
+}
+.allusers__skeleton {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.allusers__elements {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.allusers__elements__container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 15px;
+}
