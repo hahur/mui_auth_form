@@ -6,6 +6,10 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Material-UI used --- https://material-ui.com/
 
+## Form Validation with React-Hook-Form
+
+react-hook-from --- https://react-hook-form.com/
+
 ## Available Scripts
 
 In the project directory, you can run:
