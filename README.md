@@ -4,7 +4,7 @@ SVG art from --- https://www.svgbackgrounds.com/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-material-UI used --- https://material-ui.com/
+Material-UI used --- https://material-ui.com/
 
 ## Available Scripts
 
